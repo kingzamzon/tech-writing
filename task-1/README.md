@@ -8,27 +8,27 @@ GitHub is an online version of Git. I will work you through basics of GitHub in 
 ## Prerequisites
 
 - Have Git installed on your local machine.
-- Have Github Account.
+- Have GitHub Account.
 
 ## What is GitHub?
 
-Github is the online version of Git. It host the largest source code in the world.
+GitHub is the online version of Git. It host the largest source code in the world.
 
 ## Why GitHub?
 
-Github cause it houses all the popular source codes ranging from react to Linux kernel. It's popularity make it easy to reach other developers around the world.
+GitHub cause it houses all the popular source codes ranging from react to Linux kernel. It's popularity make it easy to reach other developers around the world.
 
 ## Git vs. GitHub
 
 Git is a version control system. It is used to track changes on files, enable collaboration on files.
 
-Github is a web based version of Git on the internet.
+GitHub is a web based version of Git on the internet.
 
 ## Clone
 
 Clone a repository is pulling down a full copy of repository to your local machine.
 
-1. Navigate to the repository you want to clone, in this example we will use clone the [Linux kernel](https://github.com/torvalds/linux)
+1. Navigate to the repository you want to clone, in this example we will use clone the [Linux kernel](https://GitHub.com/torvalds/linux)
 2. Click on the green <> code button.
 3. Copy the url for the repository by clicking on the copy button ![Copy Button](./images/img2a.png) using one of the option HTTPS, SSH or GitHub CLI
    ![Copy drop down](./images/img2b.png)
@@ -39,9 +39,9 @@ Clone a repository is pulling down a full copy of repository to your local machi
 
 ## Pull request
 
-Pull Request is a way to contribute to repository on github. It is a mechanism for a developer to notify team members that they have completed a feature.
+Pull Request is a way to contribute to repository on GitHub. It is a mechanism for a developer to notify team members that they have completed a feature.
 
-1. Fork the repository, by clicking on the fork buton. In this example I am using this repo [App-Ideas Repository](https://github.com/DannieBabz/App-Ideas--JS)
+1. Fork the repository, by clicking on the fork buton. In this example I am using this repo [App-Ideas Repository](https://GitHub.com/DannieBabz/App-Ideas--JS)
 
 ![Fork Button](./images/img3.png)
 
@@ -64,7 +64,7 @@ Pull Request is a way to contribute to repository on github. It is a mechanism f
 9. Still in the terminal, enter `git commit -m "update readme file with link to project readme`
    ![Git Commit Message](./images/img5.png)
 10. Push your branch to GitHub using `git push --set-upstream origin new-branch`
-11. Navigate to the repository on github, and clicked on Pull requests on the menu.
+11. Navigate to the repository on GitHub, and clicked on Pull requests on the menu.
     ![Pull requests tab](./images/img6.png)
 12. Click on `New pull request` green button. Change branch to your new created branch. Change the your repo branch to the new branch you just created.
     ![new pull request button ](./images/img7.png)
@@ -78,14 +78,14 @@ Pull Request is a way to contribute to repository on github. It is a mechanism f
 Commit is used to capture a snapshot of repository currently staged changes.
 
 To commit a file, use the command `git commit -m "commit message"`.
-
 `commit message` is the short descriptive message of what you did.
+
 ![Git Commit Message](./images/img5.png)
 
-## GitHub Desktop vs. Github CLI
+## GitHub Desktop vs. GitHub CLI
 
-If you are new to Github and you love Grahics User Interface(GUI) Github Desktop is the best option cause you have all tool to manage all github without seeing the command line.
+If you are new to GitHub and you love Grahics User Interface(GUI) GitHub Desktop is the best option cause you have all tool to manage all GitHub without seeing the command line.
 
-Github CLI brings GitHub commands like making PR, actions and raising issues e.t.c to the terminal without interfacing with the GitHub Website.
+GitHub CLI brings GitHub commands like making PR, actions and raising issues e.t.c to the terminal without interfacing with the GitHub Website.
 
-In what ever world you choose, GitHub Desktop or Github CLI, don't forget to share with the world.
+In what ever world you choose, GitHub Desktop or GitHub CLI, don't forget to share with the world.
