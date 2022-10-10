@@ -35,7 +35,7 @@ Clone a repository is pulling down a full copy of repository to your local machi
 
 ## Pull request 
 
-Pull Request is a way to contribute to repository on github. 
+Pull Request is a way to contribute to repository on github. It is a mechanism for a developer to notify team members that they have completed a feature. 
 
 ## Commit 
 
