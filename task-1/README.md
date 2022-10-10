@@ -7,6 +7,11 @@ There is need to know what was added last 2 days and who made the changes. And e
 There is no Github without git. so what is git. Git is a version control tool for tracking code changes, who changes codes e.tc now we want to make git accessible people outisde our intranetwork/ network. on the internet where Github comes in place. Take your git repository
 global with GitHub.
 
+## Prerequisites
+
+- Have Git installed on your local machine. 
+- Have Github Account.
+
 ## What is GitHub
 
 Github is the largest host the source code in the world. It owned by Microsoft in 2018.
@@ -37,6 +42,15 @@ Clone a repository is pulling down a full copy of repository to your local machi
 
 Pull Request is a way to contribute to repository on github. It is a mechanism for a developer to notify team members that they have completed a feature. 
 
+1. Fork the repository, by clicking on the fork buton. In this example I am using this repo [App-Ideas Repository](https://github.com/DannieBabz/App-Ideas--JS)
+
+![Fork Button](/images/img3.png)
+
+2. You will be navigated to the create a new fork section in which you can change the name of the repository name. When you done, Click on the `Create fork` button.
+
+![Fork Section](/images/img4.png)
+
+3. 
 ## Commit 
 
 Commit is used to captur a snapshot of repository currently staged changes. 
