@@ -30,12 +30,12 @@ Clone a repository is pulling down a full copy of repository to your local machi
 
 1. Navigate to the repository you want to clone, in this example we will use clone the [Linux kernel](https://github.com/torvalds/linux)
 2. Click on the green <> code button.
-3. Copy the url for the repository by clicking on the copy button ![Copy Button](/images/img2a.png) using one of the option HTTPS, SSH or GitHub CLI
-   ![Copy drop down](/images/img2b.png)
+3. Copy the url for the repository by clicking on the copy button ![Copy Button](./images/img2a.png) using one of the option HTTPS, SSH or GitHub CLI
+   ![Copy drop down](./images/img2b.png)
 4. Open Your Terminal
 5. Type `git clone` and paste the link you copied in 3, press enter to start cloning.
 
-![Clone Button](/images/img1.png)
+![Clone Button](./images/img1.png)
 
 ## Pull request
 
@@ -43,11 +43,11 @@ Pull Request is a way to contribute to repository on github. It is a mechanism f
 
 1. Fork the repository, by clicking on the fork buton. In this example I am using this repo [App-Ideas Repository](https://github.com/DannieBabz/App-Ideas--JS)
 
-![Fork Button](/images/img3.png)
+![Fork Button](./images/img3.png)
 
 2. You will be navigated to the create a new fork section in which you can change the name of the repository name. When you done, Click on the `Create fork` button.
 
-![Fork Section](/images/img4.png)
+![Fork Section](./images/img4.png)
 
 3. Clone the repository using the instruction above on clone instruction.
 
@@ -62,16 +62,16 @@ Pull Request is a way to contribute to repository on github. It is a mechanism f
 8. You can use `git status` command to check the current stage and changes made.
 
 9. Still in the terminal, enter `git commit -m "update readme file with link to project readme`
-   ![Git Commit Message](/images/img5.png)
+   ![Git Commit Message](./images/img5.png)
 10. Push your branch to GitHub using `git push --set-upstream origin new-branch`
 11. Navigate to the repository on github, and clicked on Pull requests on the menu.
-    ![Pull requests tab](/images/img6.png)
+    ![Pull requests tab](./images/img6.png)
 12. Click on `New pull request` green button. Change branch to your new created branch. Change the your repo branch to the new branch you just created.
-    ![Comparing ](/images/img7.png)
+    ![new pull request button ](./images/img7.png)
 13. Click on `Create pull request` button. Then click on Create pull request button at the button.
-    ![Comparing ](/images/img8.png)
+    ![create pull request ](./images/img8.png)
 14. Congratulation you just create your first pull request.
-    ![Comparing ](/images/img9.png)
+    ![congratulation ](./images/img9.png)
 
 ## Commit
 
@@ -80,7 +80,7 @@ Commit is used to capture a snapshot of repository currently staged changes.
 To commit a file, use the command `git commit -m "commit message"`.
 
 `commit message` is the short descriptive message of what you did.
-![Git Commit Message](/images/img5.png)
+![Git Commit Message](./images/img5.png)
 
 ## GitHub Desktop vs. Github CLI
 
