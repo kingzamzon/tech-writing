@@ -21,20 +21,25 @@ Git is a version control system. It is used to track changes on files, enable co
 
 Github is a web based version of Git on the internet.
 
-## Clone (Show how to do cloning)
-Clone a repository is pulling down a full copy of to your local machine
+## Clone
+Clone a repository is pulling down a full copy of repository to your local machine.
 
 1. Navigate to the repository you want to clone, in this example we will use clone the [Linux kernel](https://github.com/torvalds/linux)
 2. Click on the green <> code button.
-
+3. Copy the url for the repository by clicking on the copy button ![Copy Button](/images/img2a.png) using one of the option HTTPS, SSH or GitHub CLI
+   ![Copy drop down](/images/img2b.png)
 4. Open Your Terminal
-5. Type git clone and paste the link you copied in 3, press enter to start cloning
+5. Type `git clone` and paste the link you copied in 3, press enter to start cloning
 
 ![Clone Button](/images/img1.png)
 
-## Pull request (Show how to do a pull request)
+## Pull request 
 
-## Commit (Show how to do a commit)
+Pull Request is a way to contribute to repository on github. 
+
+## Commit 
+
+Commit is used to captur a snapshot of repository currently staged changes. 
 
 ## GitHub Desktop vs. Github CLI
 
