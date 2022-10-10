@@ -2,4 +2,4 @@
 
 Technical Writing assignment In Class
 
-[Introduction to GitHub](./task1/README.md)
+[Introduction to GitHub](./task-1/README.md)
