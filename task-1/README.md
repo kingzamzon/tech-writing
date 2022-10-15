@@ -88,4 +88,6 @@ If you are new to GitHub and you love Grahics User Interface(GUI) GitHub Desktop
 
 GitHub CLI brings GitHub commands like making PR, actions and raising issues e.t.c to the terminal without interfacing with the GitHub Website.
 
+## Conclusion
+
 In what ever world you choose, GitHub Desktop or GitHub CLI, don't forget to share with the world.
