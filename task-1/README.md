@@ -44,29 +44,32 @@ Pull Request is a way to contribute to repository on GitHub. It is a mechanism f
    ![Fork Button](./images/img3.png)
 
 2. You will be navigated to the create a new fork section in which you can change the name of the repository name. When you done, Click on the `Create fork` button.
-   ![Fork Section](./images/img4.png)
+   ![Fork Section](./images/img4a.png)
 
-3. Clone the repository using the instruction above on clone instruction.
+3. Clone the repository using above on clone section.
 
-4. Open the clone repository with your favourite code editor e.g visual studio code(VSCode)
+4. In your terminal, change directory into git-demo-github using `cd git-demo-github`
 
-5. Edit the README.md file, add your github username and save. With VS Code, you get notification of the changes in the source control icon.
+5. Open the clone repository with your favourite code editor e.g visual studio code(VSCode)
 
-6. Return to your already open terminal be sure you are in the right folder. Stage all changes using `git add .` or use `git add README.md`, to stage only the README.md file. If you didn't see any message it means success.
+6. Edit the README.md file, add your github username and save. With VS Code, you get notification of the changes in the source control icon.
 
-7. You can use `git status` command to check the current stage and changes made.
+![Fork Section](./images/img4b.png)
 
-8. Still in the terminal, enter `git commit -m "update readme file with github username"`
-   ![Git Commit Message](./images/img5.png)
+7. Return to your already open terminal be sure you are in the right folder. Stage all changes using `git add .` or use `git add README.md`, to stage only the README.md file. If you didn't see any message it means success.
+   ![Fork Section](./images/img4c.png)
 
-9. Navigate to the repository on GitHub, and clicked on Pull requests on the menu.
-   ![Pull requests tab](./images/img6.png)
-10. Click on `New pull request` green button. Change branch to your new created branch. Change the your repo branch to the new branch you just created.
-    ![new pull request button ](./images/img7.png)
-11. Click on `Create pull request` button. Then click on Create pull request button at the button.
-    ![create pull request ](./images/img8.png)
+8. You can use `git status` command to check the current stage and changes made.
+
+9. Still in the terminal, enter `git commit -m "update readme file with github username"`
+   ![Git Commit Message](./images/img4d.png)
+
+10. Navigate to your forked repository on GitHub, and click on contribute > Open pull request.
+    ![Pull requests tab](./images/img4e.png)
+11. You will be navigated to Open Pull Request section with the recent commit message that you added. Click on the green `create pull request` button.
+    ![new pull request button ](./images/img4fa.png)
 12. Congratulation you just create your first pull request.
-    ![congratulation ](./images/img9.png)
+    ![congratulation ](./images/img4fb.png)
 
 ## Commit
 
