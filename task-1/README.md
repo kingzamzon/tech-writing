@@ -46,13 +46,13 @@ Pull Request is a way to contribute to repository on GitHub. It is a mechanism f
 2. You will be navigated to the create a new fork section in which you can change the name of the repository name. When you done, Click on the `Create fork` button.
    ![Fork Section](./images/img4a.png)
 
-3. Clone the repository using above on clone section.
+3. Clone the repository using above clone section.
 
 4. In your terminal, change directory into git-demo-github using `cd git-demo-github`
 
 5. Open the clone repository with your favourite code editor e.g visual studio code(VSCode)
 
-6. Edit the README.md file, add your github username and save. With VS Code, you get notification of the changes in the source control icon.
+6. Edit the **README.md** file; add your github username and save. With VS Code, you get notification of the changes with the source control icon.
 
 ![Fork Section](./images/img4b.png)
 
@@ -64,7 +64,7 @@ Pull Request is a way to contribute to repository on GitHub. It is a mechanism f
 9. Still in the terminal, enter `git commit -m "update readme file with github username"`
    ![Git Commit Message](./images/img4d.png)
 
-10. Navigate to your forked repository on GitHub, and click on contribute > Open pull request.
+10. Navigate to your forked repository on GitHub, and click on **contribute > Open pull request**.
     ![Pull requests tab](./images/img4e.png)
 11. You will be navigated to Open Pull Request section with the recent commit message that you added. Click on the green `create pull request` button.
     ![new pull request button ](./images/img4fa.png)
@@ -78,7 +78,7 @@ Commit is used to capture a snapshot of repository currently staged changes.
 To commit a file, use the command `git commit -m "commit message"`.
 `commit message` is the short descriptive message of what you did.
 
-![Git Commit Message](./images/img5.png)
+![Git Commit Message](./images/img4d.png)
 
 ## GitHub Desktop vs. GitHub CLI
 
