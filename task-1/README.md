@@ -1,8 +1,7 @@
 ## Introduction to GitHub
 
-Have you ever thought of going back to the changes you made to a file in last 2 days after shutting down your laptop? Good news: Version control system are tools that let you have different versions of your file. But what if you lost the file totally on your laptop? GitHub is an online version control system for your local repository/folder.
-One of the popular version control system is Git.
-Git ease collaboration and tracking of file.
+Have you ever thought of going back to the changes you made to a file in last 2 days after shutting down your laptop? Good news, you can do that with version control system. Version control system are tools that let you have different versions of your file e.g Git.
+But what if the file goes missing on your laptop? There are various online version control system e.g GitHub.
 GitHub is an online version of Git. I will work you through basics of GitHub in this article.
 
 ## Prerequisites
@@ -12,15 +11,15 @@ GitHub is an online version of Git. I will work you through basics of GitHub in 
 
 ## What is GitHub?
 
-GitHub is the online version of Git. It host the largest source code in the world.
+GitHub is the online version of Git. It host the largest source code in the world e.g [Linux kernel](https://GitHub.com/torvalds/linux), [vscode](https://github.com/microsoft/vscode) e.t.c
 
 ## Why GitHub?
 
-GitHub cause it houses all the popular source codes ranging from react to Linux kernel. It's popularity make it easy to reach other developers around the world.
+GitHub houses all the popular source codes ranging from [react](https://github.com/facebook/react) to [Nodejs](https://github.com/nodejs/node). It's popularity make it easy to reach other developers around the world.
 
-## Git vs. GitHub
+## Git vs GitHub
 
-Git is a version control system. It is used to track changes on files, enable collaboration on files.
+Git is a decentralized version control system. It is used to track changes on files, enable collaboration on files.
 
 GitHub is a web based version of Git on the internet.
 
@@ -28,49 +27,45 @@ GitHub is a web based version of Git on the internet.
 
 Clone a repository is pulling down a full copy of repository to your local machine.
 
-1. Navigate to the repository you want to clone, in this example we will use clone the [Linux kernel](https://GitHub.com/torvalds/linux)
-2. Click on the green <> code button.
-3. Copy the url for the repository by clicking on the copy button ![Copy Button](./images/img2a.png) using one of the option HTTPS, SSH or GitHub CLI
+1. Navigate to the repository you want to clone, in this example I will clone the [Git Demo Github](https://github.com/kingzamzon/git-demo-github) repository.
+2. Click on the green `<> code` button.
+3. Copy the url for the repository by clicking on the copy button ![Copy Button](./images/img2a.png) using the SSH option.
    ![Copy drop down](./images/img2b.png)
 4. Open Your Terminal
 5. Type `git clone` and paste the link you copied in 3, press enter to start cloning.
-
-![Clone Button](./images/img1.png)
+   ![Clone Button](./images/img2c.png)
 
 ## Pull request
 
 Pull Request is a way to contribute to repository on GitHub. It is a mechanism for a developer to notify team members that they have completed a feature.
 
-1. Fork the repository, by clicking on the fork buton. In this example I am using this repo [App-Ideas Repository](https://GitHub.com/DannieBabz/App-Ideas--JS)
+1. Fork the repository, by clicking on the fork button. In this example I using the [Git Demo Github](https://github.com/kingzamzon/git-demo-github) repository.
 
-![Fork Button](./images/img3.png)
+   ![Fork Button](./images/img3.png)
 
 2. You will be navigated to the create a new fork section in which you can change the name of the repository name. When you done, Click on the `Create fork` button.
-
-![Fork Section](./images/img4.png)
+   ![Fork Section](./images/img4.png)
 
 3. Clone the repository using the instruction above on clone instruction.
 
-4. In your terminal, create a new branch and switch to the branch using ` git checkout -b new-branch`
+4. Open the clone repository with your favourite code editor e.g visual studio code(VSCode)
 
-5. Open the clone repository with your favourite code editor e.g visual studio code(VSCode)
+5. Edit the README.md file, add your github username and save. With VS Code, you get notification of the changes in the source control icon.
 
-6. Edit the file, you want to edit, in my case its the README.md file. With VS Code, you get notification of the changes in the source control icon.
-7. Once you have modified the file, stage it using `git add .`, which will stage all the update you have made so far.
-   If you didn't see any message it means success.
+6. Return to your already open terminal be sure you are in the right folder. Stage all changes using `git add .` or use `git add README.md`, to stage only the README.md file. If you didn't see any message it means success.
 
-8. You can use `git status` command to check the current stage and changes made.
+7. You can use `git status` command to check the current stage and changes made.
 
-9. Still in the terminal, enter `git commit -m "update readme file with link to project readme`
+8. Still in the terminal, enter `git commit -m "update readme file with github username"`
    ![Git Commit Message](./images/img5.png)
-10. Push your branch to GitHub using `git push --set-upstream origin new-branch`
-11. Navigate to the repository on GitHub, and clicked on Pull requests on the menu.
-    ![Pull requests tab](./images/img6.png)
-12. Click on `New pull request` green button. Change branch to your new created branch. Change the your repo branch to the new branch you just created.
+
+9. Navigate to the repository on GitHub, and clicked on Pull requests on the menu.
+   ![Pull requests tab](./images/img6.png)
+10. Click on `New pull request` green button. Change branch to your new created branch. Change the your repo branch to the new branch you just created.
     ![new pull request button ](./images/img7.png)
-13. Click on `Create pull request` button. Then click on Create pull request button at the button.
+11. Click on `Create pull request` button. Then click on Create pull request button at the button.
     ![create pull request ](./images/img8.png)
-14. Congratulation you just create your first pull request.
+12. Congratulation you just create your first pull request.
     ![congratulation ](./images/img9.png)
 
 ## Commit
