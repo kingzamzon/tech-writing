@@ -35,9 +35,9 @@ Clone a repository is pulling down a full copy of repository to your local machi
 5. Type `git clone` and paste the link you copied in 3, press enter to start cloning.
    ![Clone Button](./images/img2c.png)
 
-## Pull request
+## Pull Request(PR)
 
-Pull Request is a way to contribute to repository on GitHub. It is a mechanism for a developer to notify team members that they have completed a feature.
+Pull Request(PR) is a way to contribute to repository on GitHub. It is a mechanism for a developer to notify team members that they have completed a feature.
 
 1. Fork the repository, by clicking on the fork button. In this example I using the [Git Demo Github](https://github.com/kingzamzon/git-demo-github) repository.
 
@@ -88,4 +88,4 @@ GitHub CLI brings GitHub commands like making PR, actions and raising issues e.t
 
 ## Conclusion
 
-In what ever world you choose, GitHub Desktop or GitHub CLI, don't forget to share with the world.
+In what ever world you choose, GitHub Desktop or GitHub CLI, don't forget to share your codes with the world.
