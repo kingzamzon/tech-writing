@@ -4,18 +4,28 @@ Have you ever thought of going back to the changes you made to a file in last 2 
 But what if the file goes missing on your laptop? There are various online version control system e.g GitHub.
 GitHub is an online version of Git. I will work you through basics of GitHub in this article.
 
+![GitHub Homepage](./images/gh-home.png)
+
 ## Prerequisites
 
-- Have Git installed on your local machine.
-- Have GitHub Account.
+- Have [Git](https://github.com/git-guides/install-git) installed on your local machine.
+- Have [GitHub](https://github.com/) Account.
 
 ## What is GitHub?
 
 GitHub is the online version of Git. It host the largest source code in the world e.g [Linux kernel](https://GitHub.com/torvalds/linux), [vscode](https://github.com/microsoft/vscode) e.t.c
+GitHub is owned by Microsoft, it offers features such as [code reviews](https://github.com/features/code-review), [codespaces](https://github.com/features/codespaces), [Copilot](https://github.com/features/copilot), [Actions](https://github.com/features/actions) e.t.c
+It is used by top companies in the world such as Stripe, Spotify, Uber, Slack e.t.c
 
 ## Why GitHub?
 
-GitHub houses all the popular source codes ranging from [react](https://github.com/facebook/react) to [Nodejs](https://github.com/nodejs/node). It's popularity make it easy to reach other developers around the world.
+Though there are alternatives to GitHub, what makes GitHub stand out are:
+
+- It serves as home to 90% of Fortune 100 Companies.
+- It offers tools that ease collaboration.
+- It has an amazing user interface that is easy to navigate.
+- It serves as a centralized server to store files/folder.
+- It is free.
 
 ## Git vs GitHub
 
@@ -32,7 +42,7 @@ Clone a repository is pulling down a full copy of repository to your local machi
 3. Copy the url for the repository by clicking on the copy button ![Copy Button](./images/img2a.png) using the SSH option.
    ![Copy drop down](./images/img2b.png)
 4. Open Your Terminal
-5. Type `git clone` and paste the link you copied in 3, press enter to start cloning.
+5. Type `git clone` and paste the link you copied in 3, press enter to start cloning. Depending on the dependencies in the repository it might take some time to clone.
    ![Clone Button](./images/img2c.png)
 
 ## Pull Request(PR)
