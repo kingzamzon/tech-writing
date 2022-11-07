@@ -29,9 +29,19 @@ Though there are alternatives to GitHub, what makes GitHub stand out are:
 
 ## Git vs GitHub
 
-Git is a decentralized version control system. It is used to track changes on files, enable collaboration on files.
+Git is a decentralized version control system. It is used to track changes on files, enable collaboration on files while, GitHub is a web based version of Git on the internet.
 
-GitHub is a web based version of Git on the internet.
+According to [GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-git-and-github/?ref=leftbar-rightbar):
+
+| Git                                                | GitHub                                               |
+| -------------------------------------------------- | ---------------------------------------------------- |
+| Git is a software package                          | GitHub is a service                                  |
+| Git is a command-line (CL) tool                    | GitHub is a Graphical User Interface (GUI)           |
+| Git is open-source licensed                        | GitHub is a hosting service for Git repositories     |
+| Git is setup locally on the system                 | GitHub is hosted online                              |
+| Git is focused on version control and code sharing | GitHub is focused on centralized source code hosting |
+| Git is maintained by Linux                         | GitHub is maintained by Microsoft                    |
+| Git was first launched in 2005                     | GitHub was first launched in 2008                    |
 
 ## Clone
 
@@ -39,7 +49,7 @@ Clone a repository is pulling down a full copy of repository to your local machi
 
 1. Navigate to the repository you want to clone, in this example I will clone the [Git Demo Github](https://github.com/kingzamzon/git-demo-github) repository.
 2. Click on the green `<> code` button.
-3. Copy the url for the repository by clicking on the copy button ![Copy Button](./images/img2a.png) using the SSH option.
+3. Copy the url for the repository by clicking on the copy icon using the SSH option.
    ![Copy drop down](./images/img2b.png)
 4. Open Your Terminal
 5. Type `git clone` and paste the link you copied in 3, press enter to start cloning. Depending on the dependencies in the repository it might take some time to clone.
@@ -56,7 +66,7 @@ Pull Request(PR) is a way to contribute to repository on GitHub. It is a mechani
 2. You will be navigated to the create a new fork section in which you can change the name of the repository name. When you done, Click on the `Create fork` button.
    ![Fork Section](./images/img4a.png)
 
-3. Clone the repository using above clone section.
+3. Clone the repository using above [clone section](#Clone).
 
 4. In your terminal, change directory into git-demo-github using `cd git-demo-github`
 
@@ -90,7 +100,7 @@ To commit a file, use the command `git commit -m "commit message"`.
 
 ![Git Commit Message](./images/img4d.png)
 
-## GitHub Desktop vs. GitHub CLI
+## GitHub Desktop vs GitHub CLI
 
 If you are new to GitHub and you love Grahics User Interface(GUI) GitHub Desktop is the best option cause you have all tool to manage all GitHub without seeing the command line.
 
