@@ -31,7 +31,7 @@ Though there are alternatives to GitHub, what makes GitHub stand out are:
 
 Git is a decentralized version control system. It is used to track changes on files, enable collaboration on files while, GitHub is a web based version of Git on the internet.
 
-According to [GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-git-and-github/?ref=leftbar-rightbar):
+According to :
 
 | Git                                                | GitHub                                               |
 | -------------------------------------------------- | ---------------------------------------------------- |
@@ -43,7 +43,9 @@ According to [GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-gi
 | Git is maintained by Linux                         | GitHub is maintained by Microsoft                    |
 | Git was first launched in 2005                     | GitHub was first launched in 2008                    |
 
-## Clone
+Source [GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-git-and-github/?ref=leftbar-rightbar)
+
+## How to Clone
 
 Clone a repository is pulling down a full copy of repository to your local machine.
 
@@ -55,7 +57,7 @@ Clone a repository is pulling down a full copy of repository to your local machi
 5. Type `git clone` and paste the link you copied in 3, press enter to start cloning. Depending on the dependencies in the repository it might take some time to clone.
    ![Clone Button](./images/img2c.png)
 
-## Pull Request(PR)
+## How to Make a Pull Request(PR)
 
 Pull Request(PR) is a way to contribute to repository on GitHub. It is a mechanism for a developer to notify team members that they have completed a feature.
 
@@ -66,7 +68,7 @@ Pull Request(PR) is a way to contribute to repository on GitHub. It is a mechani
 2. You will be navigated to the create a new fork section in which you can change the name of the repository name. When you done, Click on the `Create fork` button.
    ![Fork Section](./images/img4a.png)
 
-3. Clone the repository using above [clone section](#Clone).
+3. Clone the repository using above [clone section](#how-to-clone).
 
 4. In your terminal, change directory into git-demo-github using `cd git-demo-github`
 
@@ -91,7 +93,7 @@ Pull Request(PR) is a way to contribute to repository on GitHub. It is a mechani
 12. Congratulation you just create your first pull request.
     ![congratulation ](./images/img4fb.png)
 
-## Commit
+## How to Make a Commit
 
 Commit is used to capture a snapshot of repository currently staged changes.
 
