@@ -55,6 +55,7 @@ Clone a repository is pulling down a full copy of repository to your local machi
    ![Copy drop down](./images/img2b.png)
 4. Open Your Terminal
 5. Type `git clone` and paste the link you copied in 3, press enter to start cloning. Depending on the dependencies in the repository it might take some time to clone.
+
    ![Clone Button](./images/img2c.png)
 
 ## How to Make a Pull Request(PR)
