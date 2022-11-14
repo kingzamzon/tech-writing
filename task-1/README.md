@@ -102,10 +102,16 @@ To commit a file, use the command `git commit -m "commit message"`.
 
 ## GitHub Desktop vs GitHub CLI
 
-If you are new to GitHub and you love Grahics User Interface(GUI) GitHub Desktop is the best option cause you have all tool to manage all GitHub without seeing the command line.
+If you are new to GitHub and you love Grahics User Interface(GUI) **GitHub Desktop** is the best option cause you have all tool to manage all GitHub without seeing the command line.
 
-GitHub CLI brings GitHub commands like making PR, actions and raising issues e.t.c to the terminal without interfacing with the GitHub Website.
+**GitHub CLI** brings GitHub commands like making PR, actions and raising issues e.t.c to the terminal without interfacing with the GitHub Website.
+
+| GitHub Desktop                                                                 | GitHub CLI                                                         |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| It allows users to interact with GitHub through a Graphic User Interface(GUI). | It allows users to interact with GitHub through command interface. |
+| It welcoming for beginners.                                                    | Require beginners to know commands.                                |
+| It consumes more time compared to GitHub CLI.                                  | It is fast and less time-consuming.                                |
 
 ## Conclusion
 
-In what ever world you choose, GitHub Desktop or GitHub CLI, don't forget to share your codes with the world.
+In this article, we have cover basic concept on GitHub such as clone, push and commit and compared GitHub Desktop vs GitHub CLI.
